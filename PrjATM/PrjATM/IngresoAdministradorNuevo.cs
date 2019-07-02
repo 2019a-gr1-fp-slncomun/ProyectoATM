@@ -65,5 +65,12 @@ namespace PrjATM
                 MessageBox.Show("No se pudo grabar la información\n" + ex.ToString());
             }
         }
-    }
+
+		private void BtnAgregarCuenta_Click(object sender, EventArgs e)
+		{
+			/*this.Hide();
+			Form cuentas = new*/ 
+				
+		}
+	}
 }
