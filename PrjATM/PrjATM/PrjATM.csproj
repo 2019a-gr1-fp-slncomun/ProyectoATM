@@ -67,6 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CambiarPIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarPIN.Designer.cs">
+      <DependentUpon>CambiarPIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,9 +97,33 @@
     <Compile Include="IngresoAdministradorNuevo.Designer.cs">
       <DependentUpon>IngresoAdministradorNuevo.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelUsuario.Designer.cs">
+      <DependentUpon>PanelUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retiro.Designer.cs">
+      <DependentUpon>Retiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetiroRapido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetiroRapido.Designer.cs">
+      <DependentUpon>RetiroRapido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuarios.cs" />
+    <EmbeddedResource Include="CambiarPIN.resx">
+      <DependentUpon>CambiarPIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IngresoAdministradorNuevo.resx">
       <DependentUpon>IngresoAdministradorNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelUsuario.resx">
+      <DependentUpon>PanelUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +146,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Content Include="Archivos\Administradores.txt" />
+    <EmbeddedResource Include="Retiro.resx">
+      <DependentUpon>Retiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetiroRapido.resx">
+      <DependentUpon>RetiroRapido.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
