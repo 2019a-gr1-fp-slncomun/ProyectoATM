@@ -65,3 +65,4 @@ C:\Users\jean\Documents\GitHub\ProyectoATM\PrjATM\PrjATM\Remotion.Interfaces.dll
 C:\Users\jean\Documents\GitHub\ProyectoATM\PrjATM\PrjATM\WinFormAnimation.dll
 C:\Users\jean\Documents\GitHub\ProyectoATM\PrjATM\PrjATM\LinqToExcel.xml
 C:\Users\jean\Documents\GitHub\ProyectoATM\PrjATM\PrjATM\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\jean\Documents\GitHub\ProyectoATM\PrjATM\PrjATM\obj\Debug\PrjATM.AgregarCuentas.resources
